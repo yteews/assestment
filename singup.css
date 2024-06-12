@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.body{
+    border-radius: 7px;
+    background-color: black;
+    height: 466px;
+    display: flex;
+    justify-content: center;
+    width: 447px;
+    border: 2px solid;
+    margin: 101px 561px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+
+}
+.card h1{
+    color: white;
+    text-align: center;
+}
+
+
+.icon{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.icon i{
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 34px;
+    padding: 10px;
+}
+
+.para{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 19px;
+}
+
+
+.para p{
+    color: white;
+    text-align: center;
+}
+.para p1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.mail{
+    /* margin: 10px;
+    height: 29px;
+    width: 364px;
+    border: 2px solid;
+    border-radius: 6px; */
+
+}
+.mail input{
+     background-color: gray;
+    margin: 10px;
+    height: 29px;
+    width: 364px;
+    border: 2px solid white;
+    border-radius: 6px;
+
+}
+.but{
+    display: flex;
+    justify-content: end;
+}
+.but button{
+    height: 34px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: green;
+}
