@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <script>
+ function compareTriplets(a, b) {
+            let pointsA = 0;
+            let pointsB = 0;
+
+            for (let i = 0; i < a.length; i++) {
+                if (a[i] > b[i]) {
+                    pointsA++;
+                } else if (a[i] < b[i]) {
+                    pointsB++;
+                }
+            }
+
+            return [pointsA, pointsB];
+        }
+
+        // Example usage:
+        let result = compareTriplets([17, 28, 30], [99, 16, 8]);
+        console.log(result); 
+
+    </script>
+    
+</body>
+</html>
